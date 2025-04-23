@@ -9,8 +9,8 @@ const app = express()
 
 // Configura o CORS para permitir qualquer origem, sem cookies
 app.use(cors({
-  origin: '*',             // Permite qualquer origem
-  credentials: false       // ❌ Não permite envio de cookies (importante)
+  origin: '*',
+  credentials: false
 }))
 
 app.use(express.json())
@@ -18,6 +18,6 @@ app.use(router)
 
 const porta = process.env.PORT || 8002
 
-app.listen(porta, () => {
+app.listen(porta, '0.0.0.0', () => {
   console.log("Servidor no ar na porta " + porta)
 })
