@@ -1,0 +1,45 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+logs/**/*.log
+
+# Build/output
+dist/
+build/
+coverage/
+
+# Nodemon
+nodemon-debug.log
+
+# Banco de dados local ou dumps
+*.sql
+*.sqlite
+
+# Arquivos temporários
+*.tmp
+*.swp
+*.bak
+
+# Optional: Ignorar uploads se estiver testando localmente
+uploads/
