@@ -5,7 +5,8 @@
     "mysql2": "^3.14.0"
   },
   "scripts": {
-    "dev":"nodemon src/index.js"
+    "dev":"nodemon src/index.js",
+    "start": "src/index.js"
   },
   "type": "module",
   "devDependencies": {
